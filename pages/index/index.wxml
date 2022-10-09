@@ -1,0 +1,38 @@
+<!-- pages/index/index.wxml -->
+<view class="screen_content">
+  <view class="screen">{{result}}</view>
+</view>
+<view class="content"> 
+ <image class="bg" src="https://i0.hdslb.com/bfs/article/15f3f00d379ed3035bb5d4efcef121bbecc24cde.jpg@942w_942h_progressive.webp"></image>
+ <view class="buttonGroup">
+  <button id="{{id1}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">C</button>
+  <button id="{{id2}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">DEL</button>
+  <button id="{{id3}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">
+  <icon type="waiting" color="#66CC33"></icon>
+  </button>
+  <button id="{{id4}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">÷</button>
+ </view> 
+ <view class="buttonGroup"> 
+  <button id="{{id17}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">7</button>
+  <button id="{{id18}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">8</button>
+  <button id="{{id19}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">9</button>
+  <button id="{{id5}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">×</button>
+ </view>
+ <view class="buttonGroup">
+  <button id="{{id14}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">4</button>
+  <button id="{{id15}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">5</button>
+  <button id="{{id16}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">6</button>
+  <button id="{{id6}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">-</button>
+ </view>
+ <view class="buttonGroup">
+  <button id="{{id11}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">1</button>
+  <button id="{{id12}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">2</button>
+  <button id="{{id13}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">3</button>
+  <button id="{{id7}}" bindtap="clickButton" class="buttonitem" hover-class="shadow">+</button>
+ </view>
+ <view class="buttonGroup">
+  <button id="{{id10}}" bindtap="clickButton" class="buttonitem1" hover-class="shadow">0</button>
+  <button id="{{id8}}" bindtap="clickButton" class="buttonitem1" hover-class="shadow">.</button>
+  <button id="{{id9}}" bindtap="equal" class="equal" hover-class="shadow">=</button>
+ </view>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/lunar/lunar.wxml-->
+<calendar defaultDate="2022/10/1" spot="{{spot}}"  bind:dateChange="dateChange"></calendar>
+<view class="date-string">当前选中的日期是：{{dateString}}</view>
+
+<view class="doc-box">
+  <view class="title">tips</view>
+  <view class="date-string">规律的经期约为28天，以此为标准，红点标出的即是该月经周期内的危险期</view>
+  <view class="date-string">月经也会受到情绪和环境影响，如果有经期不规律的情况，还请务必注意</view>
+</view>

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/bmi/bmi",
+    "pages/lunar/lunar"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "weixin",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#fefdee"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "计算器",
+        "iconPath": "icons/006hYGkFly1h5nhwrmb1vj30b40b4wf8.jpg",
+        "selectedIconPath": "icons/006hYGkFly1h5nhwrmb1vj30b40b4wf8.jpg"
+      },
+      {
+        "pagePath": "pages/bmi/bmi",
+        "text": "体脂",
+        "iconPath": "icons/006hYGkFly1h5nhwrhptwj30b40b4q3w.jpg",
+        "selectedIconPath": "icons/006hYGkFly1h5nhwrhptwj30b40b4q3w.jpg"
+      },
+      {
+        "pagePath": "pages/lunar/lunar",
+        "text": "经期",
+        "iconPath": "icons/006hYGkFly1h5nhwrirx1j30b40b40ti.jpg",
+        "selectedIconPath": "icons/006hYGkFly1h5nhwrirx1j30b40b40ti.jpg"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

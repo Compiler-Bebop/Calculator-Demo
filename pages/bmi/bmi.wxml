@@ -1,0 +1,26 @@
+<!--pages/bmi/bmi.wxml-->
+<view class="container">
+  <view class="page_body">
+    <view class="topic">体脂率计算</view>
+    <picker-view value="{{value}}" indicator-style="height: 100rpx" style="width: 100%; height: 200rpx;" bindchange="bindChange">
+      <picker-view-column>
+      <view wx:for="{{sexes}}" wx:key="{{sexes}}" style="line-height: 50px; text-align: center;">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+      <view wx:for="{{ages}}" wx:key="{{ages}}" style="line-height: 50px; text-align: center;">{{item}}岁</view>
+      </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{heights}}" wx:key="{{heights}}" style="line-height: 50px; text-align: center;">{{item}}cm</view>
+    </picker-view-column>
+    <picker-view-column><view wx:for="{{weights}}" wx:key="{{weights}}" style="line-height: 50px; text-align: center;">{{item}}kg</view>
+    </picker-view-column>
+    </picker-view>
+    <view class="data_demo">您的BMI指数为:{{bmi}}</view>
+    <view class="data_demo">体脂率为:{{tzl}}%</view>
+  
+  </view>
+  <view class="demo_area">
+  <view class="data_demo1">{{tips}}</view>
+  <image mode="aspectFit" src="{{src}}" style="width:100%"></image>
+  </view>
+</view>
